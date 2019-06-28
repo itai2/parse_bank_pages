@@ -125,6 +125,7 @@ static bool parseReferenceLine( QTextStream &output, const QString &line )
          description.contains( "ח משרד ראש" ) ||
          description.contains( "אדגו" ) ||
          description.contains( "טלדור מערכ" ) ||
+         description.contains( "ח ישראכרט" ) ||
          description.contains( "זקיפת רבית זכות" ) )
     {
         output << credit;
